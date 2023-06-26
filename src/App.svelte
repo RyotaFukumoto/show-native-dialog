@@ -23,8 +23,8 @@
   <h1>Vite + Svelte</h1>
 
   <div class="card">
-<button on:click={() => ShowDialog.show({title:"test",message:"test@@@"})}>
-  callNativeCode
+<button on:click={() => ShowDialog.show({title:"テストダイアログ",message:"Svelteからの値"})}>
+  Tap!!
 </button>
   </div>
 

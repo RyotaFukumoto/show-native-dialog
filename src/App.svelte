@@ -33,11 +33,11 @@
   </p>
 
   <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
+    Click on the Vite and <span class="read-the-docs__red"> Svelte </span> logos to learn more
   </p>
 </main>
 
-<style>
+<style lang="scss">
   .logo {
     height: 6em;
     padding: 1.5em;
@@ -52,5 +52,8 @@
   }
   .read-the-docs {
     color: #888;
+    &__red {
+      color: #ff3e00;
+    }
   }
 </style>
